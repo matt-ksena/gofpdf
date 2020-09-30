@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/phpdave11/gofpdf"
+	"github.com/matt-ksena/gofpdf"
 )
 
 var gofpdfDir string
