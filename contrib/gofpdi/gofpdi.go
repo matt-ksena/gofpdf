@@ -1,5 +1,5 @@
 /*
-Package gofpdi wraps the gofpdi PDF library to import existing PDFs as templates. See github.com/phpdave11/gofpdi
+Package gofpdi wraps the gofpdi PDF library to import existing PDFs as templates. See github.com/matt-ksena/gofpdi
 for further information and examples.
 
 Users should call NewImporter() to obtain their own Importer instance to work with.
@@ -9,8 +9,9 @@ however that use of the default Importer is not thread safe.
 package gofpdi
 
 import (
-	realgofpdi "github.com/phpdave11/gofpdi"
 	"io"
+
+	realgofpdi "github.com/matt-ksena/gofpdi"
 )
 
 // gofpdiPdf is a partial interface that only implements the functions we need
